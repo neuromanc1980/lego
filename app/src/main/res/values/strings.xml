@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lego</string>
+    <string name="buscar">Buscar</string>
+    <string name="inserta_el_codi">Inserta el codi</string>
+    <string name="please_wait">Please wait &#8230;</string>
+    <string name="searching">Searching &#8230;</string>
+</resources>

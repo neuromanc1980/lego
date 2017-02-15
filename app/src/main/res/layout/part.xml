@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="96dp"
+        android:layout_gravity= "center_vertical"
+        android:layout_margin="5dp"
+        android:id="@+id/imatge" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:text="Id: "
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:id="@+id/id"
+            android:textSize = "20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="75"
+        android:orientation="vertical"
+        android:layout_gravity="right">
+
+        <TextView
+            android:text="Quantitat:"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:id="@+id/quantitat"
+            android:textSize = "14dp" />
+
+        <TextView
+            android:text="Tipus:"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:id="@+id/tipus"
+            android:textSize = "14dp" />
+
+        <TextView
+            android:text="Color:"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:id="@+id/color"
+            android:textSize = "14dp"/>
+
+    </LinearLayout>
+</LinearLayout>
